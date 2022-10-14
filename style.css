@@ -30,12 +30,10 @@
 }
 
 .dark-theme {
-  --page-background: linear-gradient(
-    180deg,
+    --page-background: linear-gradient(180deg,
     #050000 0%,
     #130404 65%,
-    rgba(19, 1, 1, 0.75) 100%
-  );
+            rgba(19, 1, 1, 0.75) 100%);
   --header-background-color: #220f0f;
   --highlight-color: #ffffff;
   --featured-font-family: "Rubik Glitch", sans-serif;
@@ -58,8 +56,6 @@
 .dark-theme .invert-element {
   transform: rotateZ(180deg) scaleX(-1);
 }
-
-/***  GENERIC STYLES ***/
 
 * {
   margin: 0;
@@ -192,6 +188,7 @@ header::before {
 .header-content button:hover {
   background-color: var(--primary-color);
   color: var(--primary-color-contrast);
+
 }
 
 /*** WORLD CHARACTERS STYLES ***/
@@ -230,8 +227,6 @@ section {
   margin-bottom: 95px;
 }
 
-/* Section 01 - Inverted World */
-
 .container {
   max-width: 1200px;
 }
@@ -248,9 +243,7 @@ section {
   max-width: 300px;
 }
 
-/* Section 02 - Stranger Things Trailer */
-
-#section-stranger-things-trailer .section-texts {
+#section-stranger-things-traler .section-texts {
   width: 50%;
   text-align: right;
 }
@@ -269,10 +262,8 @@ section {
   bottom: 24px;
   left: 24px;
   border: 2px solid;
-  border-image: linear-gradient(
-    var(--primary-color),
-    var(--primary-color-contrast)
-  );
+    border-image: linear-gradient(var(--primary-color),
+            var(--primary-color-contrast));
   border-image-slice: 10;
 }
 
